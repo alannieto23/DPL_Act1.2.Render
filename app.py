@@ -9,9 +9,9 @@ def inici():
     <p>La meva primera aplicació desplegada amb Render.</p>
     """
 
-@app.route("/alumne/alan")
+@app.route("/alumne/sofi")
 def alumne():
     return f"""
-    <h1>Hola, Alan!</h1>
+    <h1>Hola, Sofi!</h1>
     <p>Aquesta pàgina ha estat generada pel servidor.</p>
     """
